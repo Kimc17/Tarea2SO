@@ -1,0 +1,387 @@
+0 read
+1 write
+2 open
+3 close
+4 stat
+5 fstat
+6 lstat
+7 poll
+8 lseek
+9 mmap
+10 mprotect
+11 munmap
+12 brk
+13 rt_sigaction	
+14 rt_sigprocmask
+15 rt_sigreturn	
+16 ioctl
+17 pread
+18 pwrite
+19 readv
+20 writev 	writev
+21 access 	access
+22 pipe 	pipe
+23 select 	select
+24 sched_yield sched_yield
+25 mremap 	mremap
+26 msync 	msync
+27 mincore 	mincore
+28 madvise 	madvise
+29	shmget 	shmget
+30 shmat 	shmat
+31 shmctl 	shmctl
+32 dup 	    dup
+33 dup2 	dup2
+34 pause 	pause
+35 nanosleep nanosleep
+36 getitimer getitimer
+37 alarm 	alarm
+38 setitimer setitimer
+39 getpid 	getpid
+40 sendfile sendfile
+41 socket 	socket
+42 connect 	connect
+43 accept 	accept
+44 sendto 	sendto
+45 recvfrom recvfrom
+46 sendmsg 	sendmsg
+47 recvmsg 	recvmsg
+48 shutdown shutdown
+49 bind 	bind
+50 listen 	listen
+51 getsockname getsockname
+52 getpeername getpeername
+53 socketpair socketpair
+54 setsockopt setsockopt
+55 getsockopt getsockopt
+56 clone 	clone
+57 fork 	fork
+58 vfork 	vfork
+59 execve 	execve
+60 exit 	exit
+61 wait4 	wait4
+62 kill 	kill
+63 uname 	newuname
+ semget 	semget
+65 semop 	semop
+66 semctl 	semctl
+67 shmdt 	shmdt
+68 msgget 	msgget
+69 msgsnd 	msgsnd
+70 msgrcv 	msgrcv
+71 msgctl 	msgctl
+72 fcntl 	fcntl
+73 flock 	flock
+74 fsync 	fsync
+75 fdatasync fdatasync
+76 truncate truncate
+77 ftruncate ftruncate
+78 getdents getdents
+79 getcwd 	getcwd
+80 chdir 	chdir
+81 fchdir 	fchdir
+82 rename 	rename
+83 mkdir 	mkdir
+84 rmdir 	rmdir
+85 creat 	creat
+86 link 	link
+87 unlink 	unlink
+88 symlink 	symlink
+89 readlink readlink
+90 chmod 	chmod
+91 fchmod 	fchmod
+92 chown 	chown
+93 fchown 	fchown
+94 lchown 	lchown
+95 umask 	umask
+96 gettimeofday gettimeofday
+97 getrlimit getrlimit
+98 getrusage getrusage
+99 sysinfo 	sysinfo
+100 times 	times
+101 ptrace 	ptrace
+102 getuid 	getuid
+103 syslog 	syslog
+104 getgid 	getgid
+105 setuid 	setuid
+106 setgid 	setgid
+107 geteuid 	geteuid
+108 getegid 	getegid
+109 setpgid setpgid
+110 getppid 	getppid
+111 getpgrp 	getpgrp
+112 setsid 	setsid
+113 setreuid setreuid
+114 setregid setregid
+115 getgroups getgroups
+116 setgroups setgroups
+117 setresuid setresuid
+118 getresuid getresuid
+119 setresgid setresgid
+120 getresgid getresgid
+121 getpgid 	getpgid
+122 setfsuid setfsuid
+123 setfsgid setfsgid
+124 getsid 	getsid
+125 capget 	capget
+126 capset 	capset
+127 rt_sigpending rt_sigpending
+128 rt_sigtimedwait rt_sigtimedwait
+129 rt_sigqueueinfo rt_sigqueueinfo
+130 rt_sigsuspend rt_sigsuspend
+131 sigaltstack sigaltstack
+132 utime 	utime
+133 mknod 	mknod
+134 uselib
+135 personality personality
+136 ustat 	ustat
+137 statfs 	statfs
+138 fstatfs 	fstatfs
+139 sysfs 	sysfs
+140 getpriority getpriority
+141 setpriority setpriority
+142 sched_setparam sched_setparam
+143 sched_getparam sched_getparam
+144 sched_setscheduler	sched_setscheduler
+145 sched_getscheduler	sched_getscheduler
+146 sched_get_priority_max	sched_get_priority_max
+147 sched_get_priority_min	sched_get_priority_min
+148 sched_rr_get_interval	sched_rr_get_interval
+149 mlock 	mlock
+150 munlock 	munlock
+151 mlockall mlockall
+152 munlockall munlockall
+153 vhangup 	vhangup
+154 modify_ldt modify_ldt
+155 pivot_root pivot_root
+156 _sysctl 	ni_syscall
+157 prctl 	prctl
+158 arch_prctl arch_prctl
+159 adjtimex adjtimex
+160 setrlimit setrlimit
+161 chroot 	chroot
+162 sync 	sync
+163 acct 	acct
+1 settimeofday settimeofday
+165 mount 	mount
+166 umount2 	umount
+167 swapon 	swapon
+168 swapoff 	swapoff
+169 reboot 	reboot
+170 sethostname sethostname
+171 setdomainname setdomainname
+172 iopl 	iopl
+173 ioperm 	ioperm
+174 create_module
+175 init_module init_module
+176 delete_module delete_module
+177 get_kernel_syms
+178 query_module
+179 quotactl quotactl
+180 nfsservctl
+181 getpmsg
+182 putpmsg
+183 afs_syscall
+184 tuxcall
+185 security
+186 gettid 	gettid
+187 readahead readahead
+188 setxattr setxattr
+189 lsetxattr lsetxattr
+190 fsetxattr fsetxattr
+191 getxattr getxattr
+192 lgetxattr lgetxattr
+193 fgetxattr fgetxattr
+194 listxattr listxattr
+195 llistxattr llistxattr
+196 flistxattr flistxattr
+197 removexattr removexattr
+198 lremovexattr lremovexattr
+199 fremovexattr fremovexattr
+200 tkill 	tkill
+201 time 	time
+202 futex 	futex
+203 sched_setaffinity	sched_setaffinity
+204 sched_getaffinity	sched_getaffinity
+205 set_thread_area
+206 io_setup io_setup
+207 io_destroy io_destroy
+208 io_getevents io_getevents
+209 io_submit io_submit
+210 io_cancel io_cancel
+211 get_thread_area
+212 lookup_dcookie lookup_dcookie
+213 epoll_create epoll_create
+214 epoll_ctl_old
+215 epoll_wait_old
+216 remap_file_pages	remap_file_pages
+217 getdents getdents
+218 set_tid_address set_tid_address
+219 restart_syscall restart_syscall
+220 semtimedop semtimedop
+221 fadvise fadvise
+222 timer_create 
+223 timer_settime timer_settime
+224 timer_gettime timer_gettime
+225 timer_getoverrun	timer_getoverrun
+226 timer_delete timer_delete
+227 clock_settime clock_settime
+228 clock_gettime clock_gettime
+229 clock_getres clock_getres
+230 clock_nanosleep clock_nanosleep
+231 exit_group exit_group
+232 epoll_wait epoll_wait
+233 epoll_ctl epoll_ctl
+234 tgkill 	tgkill
+235 utimes 	utimes
+236 vserver
+237 mbind 	mbind
+238 set_mempolicy set_mempolicy
+239 get_mempolicy get_mempolicy
+240 mq_open 	mq_open
+241 mq_unlink mq_unlink
+242 mq_timedsend mq_timedsend
+243 mq_timedreceive mq_timedreceive
+244 mq_notify mq_notify
+245 mq_getsetattr mq_getsetattr
+246 kexec_load kexec_load
+247 waitid 	waitid
+248 add_key 	add_key
+249 request_key request_key
+250 keyctl 	keyctl
+251 ioprio_set ioprio_set
+252 ioprio_get ioprio_get
+253 inotify_init inotify_init
+254 inotify_add_watch	inotify_add_watch
+255 inotify_rm_watch	inotify_rm_watch
+256 migrate_pages migrate_pages
+257 openat 	openat
+258 mkdirat 	mkdirat
+259 mknodat 	mknodat
+260 fchownat fchownat
+261 futimesat futimesat
+262 newfstatat newfstatat
+263 unlinkat unlinkat
+2 renameat renameat
+265 linkat 	linkat
+266 symlinkat symlinkat
+267 readlinkat readlinkat
+268 fchmodat fchmodat
+269 faccessat faccessat
+270 pselect6 pselect6
+271 ppoll 	ppoll
+272 unshare 	unshare
+273 set_robust_list set_robust_list
+274 get_robust_list get_robust_list
+275 splice 	splice
+276 tee 	tee
+277 sync_file_range sync_file_range
+278 vmsplice vmsplice
+279 move_pages move_pages
+280 utimensat utimensat
+281 epoll_pwait epoll_pwait
+282 signalfd signalfd
+283 timerfd_create timerfd_create
+284 eventfd 	eventfd
+285 fallocate fallocate
+286 timerfd_settime timerfd_settime
+287 timerfd_gettime timerfd_gettime
+288 accept4 	accept4
+289 signalfd4 signalfd4
+290 eventfd2 eventfd2
+291 epoll_create1 epoll_create1
+292 dup3 	dup3
+293 pipe2 	pipe2
+294 inotify_init1 inotify_init1
+295 preadv 	preadv
+296 pwritev 	pwritev
+297 rt_tgsigqueueinfo	rt_tgsigqueueinfo
+298 perf_event_open perf_event_open
+299 recvmmsg recvmmsg
+300 fanotify_init fanotify_init
+301 fanotify_mark fanotify_mark
+302 prlimit prlimit
+303 name_to_handle_at	name_to_handle_at
+304 open_by_handle_at	open_by_handle_at
+305 clock_adjtime clock_adjtime
+306 syncfs 	syncfs
+307 sendmmsg sendmmsg
+308 setns 	setns
+309 getcpu 	getcpu
+310 process_vm_readv	process_vm_readv
+311 process_vm_writev	process_vm_writev
+312 kcmp 	kcmp
+313 finit_module finit_module
+314 sched_setattr sched_setattr
+315 sched_getattr sched_getattr
+316 renameat2 renameat2
+317 seccomp 	seccomp
+318 getrandom getrandom
+319 memfd_create memfd_create
+320 kexec_file_load kexec_file_load
+321 bpf 	bpf
+322 execveat execveat
+323 userfaultfd userfaultfd
+324 membarrier membarrier
+325 mlock2 	mlock2
+326 copy_file_range copy_file_range
+327 preadv2 	preadv2
+328 pwritev2 pwritev2
+329 pkey_mprotect pkey_mprotect
+330 pkey_alloc pkey_alloc
+331 pkey_free pkey_free
+332 statx 	statx
+333 io_pgetevents io_pgetevents
+334 rseq 	rseq
+424 pidfd_send_signal	pidfd_send_signal
+425 io_uring_setup io_uring_setup
+426 io_uring_enter io_uring_enter
+427 io_uring_register	io_uring_register
+428 open_tree open_tree
+429 move_mount move_mount
+430 fsopen 	fsopen
+431 fsconfig fsconfig
+432 fsmount 	fsmount
+433 fspick 	fspick
+434 pidfd_open pidfd_open
+435 clone3 	clone3
+436 close_range close_range
+437 openat2 	openat2
+438 pidfd_getfd pidfd_getfd
+439 faccessat2 faccessat2
+512 rt_sigaction	
+513 rt_sigreturn
+514 ioctl 	compat_ioctl
+515 readv 	compat_readv
+516 writev 	compat_writev
+517 recvfrom compat_recvfrom
+518 sendmsg 	compat_sendmsg
+519 recvmsg 	compat_recvmsg
+520 execve 	compat_execve
+521 ptrace compat_ptrace
+522 rt_sigpending compat_rt_sigpending
+523 rt_sigtimedwait compat_rt_sigtimedwait_time
+524 rt_sigqueueinfo compat_rt_sigqueueinfo
+525 sigaltstack compat_sigaltstack
+526 timer_create compat_timer_create
+527 mq_notify compat_mq_notify
+528 kexec_load compat_kexec_load
+529 waitid 	compat_waitid
+530 set_robust_list compat_set_robust_list
+531 get_robust_list compat_get_robust_list
+532 vmsplice compat_vmsplice
+533 move_pages compat_move_pages
+534 preadv 	compat_preadv
+535 pwritev 	compat_pwritev
+536 rt_tgsigqueueinfo	compat_rt_tgsigqueueinfo
+537 recvmmsg compat_recvmmsg_time
+538 sendmmsg compat_sendmmsg
+539 process_vm_readv	compat_process_vm_readv
+540 process_vm_writev	compat_process_vm_writev
+541 setsockopt setsockopt
+542 getsockopt getsockopt
+543 io_setup compat_io_setup
+544 io_submit compat_io_submit
+545 execveat compat_execveat
+546 preadv2 	compat_preadvv2
+547 pwritev2

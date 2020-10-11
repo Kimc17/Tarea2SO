@@ -1,0 +1,17 @@
+Syscall | Amount   
+execve|1
+brk|3
+arch_prctlaccess|1
+access|1
+openat|2
+fstat|3
+mmap|7
+close|2
+read|1
+pread64|6
+mprotect|4
+arch_prctl |1
+munmap|1
+write|1
+exit_group|1
+Total|35

@@ -1,0 +1,11 @@
+Compilar:
+gcc Millamada.c -o millamada
+La estructura general es:
+    /millamada ./[NOMBRE] [MODO] [PARÁMETROS]
+Para correr el modo automático:
+    /millamada ./[NOMBRE] automatic [PARÁMETROS]
+    Ejemplo: ./millamada ./taller automatic o ./millamada ./client automatic 127.0.0
+Para correr e modo interactivo:
+    /millamada ./[NOMBRE] interactive [PARÁMETROS]
+    Ejemplo: ./millamada ./taller interactive o ./millamada ./client interactive 127.0.0.1
+    
